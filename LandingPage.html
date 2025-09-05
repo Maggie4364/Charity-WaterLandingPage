@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Charity: Water</title>
   <style>
-    /* Font */
     @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;600;700&display=swap');
 
     :root {
@@ -13,6 +12,7 @@
       --accent: #FFF7E1;    /* Cream */
       --bg: #77A8BB;        /* Teal */
       --text-dark: #1A1A1A; /* Dark gray */
+      --brand-yellow: #FFC907; /* Charity Water Yellow */
     }
 
     * {
@@ -46,7 +46,7 @@
       align-items: center;
       gap: 0.5rem;
       font-weight: 700;
-      color: var(--primary);
+      color: var(--brand-yellow); /* Make text match logo color */
     }
 
     .logo img {
@@ -176,24 +176,24 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<header>
-  <div class="logo">
-    <img src="charity_water-converted (1).png" alt="Charity: Water logo">
-    <span>Charity: Water</span>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#signin">SIGN IN</a></li>
-      <li><button class="contact-btn">CONTACT US</button></li>
-    </ul>
-  </nav>
-</header>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">
+      <!-- Updated Charity Water logo -->
+      <img src="charity_water-converted (1).png" alt="Charity: Water logo">
+      <span>Charity: Water</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#signin">SIGN IN</a></li>
+        <li><button class="contact-btn">CONTACT US</button></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Hero Section -->
   <section class="hero" id="home">
-    <!-- Your uploaded hero image -->
     <img src="hero.jpg" alt="People carrying water">
     <h1>From Campus To Global Change</h1>
     <p>From your campus to communities around the world, help bring clean water to those who need it most and see your impact in action.</p>
